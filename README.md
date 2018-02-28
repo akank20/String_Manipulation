@@ -11,20 +11,33 @@ Output Format:
 Print the modified string for each test case in new line.
 
 Input
+
 3
+
 hlleo 1 3
+
 ooneefspd 0 8
+
 effort 1 4
 
+
 Your Code's Output
+
 hlleo
+
 spoonfeed
+
 erofft
 
+
 Expected Correct Output
+
 hlleo
+
 spoonfeed
+
 erofft
 
 Compilation Log
+
 Compiled successfully.
