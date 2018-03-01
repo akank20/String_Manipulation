@@ -9,8 +9,8 @@ void DesSort(char[],int, int);
 int main() {
 	int num,N,M;
 	string S;
-	char str[100];
-	cin >> num;										// Reading input from STDIN
+	char str[10000];
+	cin >> num;										
 	for(int i=0;i<num;i++)
 	{
 	    cin>>S>>N>>M;
@@ -24,7 +24,7 @@ int main() {
 void DesSort(char S[], int N, int M)
 {
     int i,j,len;
-    char sortS[100];
+    char sortS[10000];
     char max,temp;
     len=sizeof(S)/sizeof(*S);
     if(N>0)
