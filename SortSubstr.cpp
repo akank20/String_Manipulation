@@ -13,10 +13,14 @@ int main() {
 	cin >> num;										
 	for(int i=0;i<num;i++)
 	{
-	    cin>>S>>N>>M;
-	    strcpy(str, S.c_str());
-	    DesSort(str,N,M);
-	    cout<<endl;
+	    cin>>S;
+	    cin>>N>>M;
+	    if(N>0 || M>0 || N<S.length() || M<S.length())
+	    {
+	            strcpy(str, S.c_str());
+        	    DesSort(str,N,M);
+        	    cout<<endl;
+	    }
 	}
 	return 0;
 }
@@ -47,7 +51,6 @@ void DesSort(char S[], int N, int M)
             }
         }
         sortS[i]=max;
-        cout<<sortS[i];
         cout<<sortS[i];
     }
     if(S[i]!='\0')
