@@ -27,10 +27,9 @@ int main() {
 
 void DesSort(char S[], int N, int M)
 {
-    int i,j,len;
+    int i,j;
     char sortS[10000];
     char max,temp;
-    len=sizeof(S)/sizeof(*S);
     if(N>0)
     {
         for(i=0;i<N;i++)
